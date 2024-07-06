@@ -5,11 +5,8 @@ const btn = document.getElementById(`btn`);
 const text = document.getElementById(`text`);
 
 btn.addEventListener(`click`,() => {
-  //li要素を追加する
-  const childlist = document.createElement(`li`) 
-  //作成したli要素にテキストを追加
-  childlist.textContent =`ボタンをクリックしました`;
-
+ 
+text.textContent = `ボタンをクリックしました` ; 
   console.log(text);
 });
- 
+
